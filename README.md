@@ -50,6 +50,10 @@ SELECT
 FROM retail.sales.dataset
 GROUP BY ALL;
 
+```
+---
+
+
 ### ✅ Key Transformations
 
 - Customer deduplication using `COUNT(DISTINCT)`  
