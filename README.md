@@ -49,3 +49,123 @@ SELECT
     SUM(Quantity) AS Number_of_units_sold
 FROM retail.sales.dataset
 GROUP BY ALL;
+
+### ✅ Key Transformations
+
+- Customer deduplication using `COUNT(DISTINCT)`  
+- Time breakdown (year, month, day)  
+- Revenue aggregation  
+- Units sold aggregation  
+
+---
+
+### 🔹 Dashboard Development (Databricks)
+
+The transformed dataset was visualized directly in **Databricks dashboards**, enabling:
+
+- KPI summary cards  
+- Product category comparisons  
+- Time-series visualizations  
+- Interactive filters (date, category, customer metrics)  
+
+---
+
+## 📖 Case Study: From Data to Decisions
+
+### 🔎 Scenario
+
+A retail business lacked visibility into:
+
+- Revenue fluctuations  
+- Category performance  
+- Customer growth trends  
+
+Although the data existed, it was stored at a **transaction level**, making it difficult to extract meaningful insights.
+
+---
+
+### 🔄 Data Transformation
+
+The dataset was structured into meaningful analytical dimensions:
+
+- 📅 **Time Intelligence** → Daily & monthly trends  
+- 👥 **Customer Metrics** → Unique customers  
+- 💰 **Performance Metrics** → Revenue & units sold  
+- 🛍️ **Segmentation** → Product categories  
+
+---
+
+## 📊 Dashboard Overview
+
+### KPI Highlights
+
+- **Total Revenue:** 456K  
+- **Total Units Sold:** 2.51K  
+
+---
+
+## 🔍 Key Insights
+
+### 💰 Revenue Performance
+
+- Total revenue indicates strong overall performance  
+- Daily fluctuations suggest inconsistent demand patterns  
+
+---
+
+### 🛍️ Product Category Distribution
+
+Revenue is evenly split (~31–34%) across:
+
+- Beauty  
+- Clothing  
+- Electronics  
+
+**Insight:**
+- Business is well-diversified  
+- Opportunity exists to grow a dominant category  
+
+---
+
+### 📈 Customer Trends
+
+- Customer counts fluctuate over time  
+
+**Insight:**
+- Indicates potential retention challenges  
+- Opportunity for targeted marketing or loyalty strategies  
+
+---
+
+### 📉 Daily Revenue Trends
+
+- Revenue shows spikes and dips across days  
+
+**Insight:**
+- Likely influenced by:
+  - Promotions  
+  - Customer purchasing behavior  
+
+- Opportunity to optimize campaign timing  
+
+---
+
+### 📊 Category Performance Trends
+
+- Electronics shows variability  
+- Beauty and Clothing remain relatively stable  
+
+**Insight:**
+- Electronics may be seasonal or promotion-driven  
+- Stable categories provide a consistent revenue base  
+
+---
+
+## 🧠 Business Value
+
+This dashboard enables:
+
+- Data-driven decision-making  
+- Identification of growth opportunities  
+- Improved customer insights  
+- Better planning of sales and marketing strategies  
