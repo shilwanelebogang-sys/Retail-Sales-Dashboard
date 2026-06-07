@@ -100,6 +100,8 @@ The dataset was structured into meaningful analytical dimensions:
 ---
 
 ## 📊 Dashboard Overview
+<img width="1203" height="620" alt="Screenshot 2026-06-07 193254" src="https://github.com/user-attachments/assets/fa65e00a-bf04-4598-8a75-18e8ebd9cff0" />
+
 
 ### KPI Highlights
 
