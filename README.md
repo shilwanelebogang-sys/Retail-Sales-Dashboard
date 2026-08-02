@@ -1,10 +1,10 @@
-# 📊 Retail Sales Dashboard (Databricks)
+# Retail Sales Dashboard (Databricks)
 
 
 
 ---
 
-## 🧩 Business Problem
+## Business Problem
 
 Retail businesses generate large volumes of transactional data daily, but without proper transformation and visualization, this data remains underutilized.
 
@@ -20,7 +20,7 @@ Stakeholders needed:
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To build a scalable analytics solution using **Databricks** that:
 
@@ -31,9 +31,9 @@ To build a scalable analytics solution using **Databricks** that:
 
 ---
 
-## 🛠️ Solution Approach
+## Solution Approach
 
-### 🔹 Data Processing (Databricks SQL)
+### Data Processing (Databricks SQL)
 
 ```sql
 SELECT 
@@ -54,7 +54,7 @@ GROUP BY ALL;
 ---
 
 
-### ✅ Key Transformations
+### Key Transformations
 
 - Customer deduplication using `COUNT(DISTINCT)`  
 - Time breakdown (year, month, day)  
@@ -63,7 +63,7 @@ GROUP BY ALL;
 
 ---
 
-### 🔹 Dashboard Development (Databricks)
+### Dashboard Development (Databricks)
 
 The transformed dataset was visualized directly in **Databricks dashboards**, enabling:
 
@@ -74,9 +74,9 @@ The transformed dataset was visualized directly in **Databricks dashboards**, en
 
 ---
 
-## 📖 Case Study: From Data to Decisions
+## Case Study: From Data to Decisions
 
-### 🔎 Scenario
+### Scenario
 
 A retail business lacked visibility into:
 
@@ -88,18 +88,18 @@ Although the data existed, it was stored at a **transaction level**, making it d
 
 ---
 
-### 🔄 Data Transformation
+### Data Transformation
 
 The dataset was structured into meaningful analytical dimensions:
 
-- 📅 **Time Intelligence** → Daily & monthly trends  
-- 👥 **Customer Metrics** → Unique customers  
-- 💰 **Performance Metrics** → Revenue & units sold  
-- 🛍️ **Segmentation** → Product categories  
+- **Time Intelligence** → Daily & monthly trends  
+- **Customer Metrics** → Unique customers  
+- **Performance Metrics** → Revenue & units sold  
+- **Segmentation** → Product categories  
 
 ---
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 <img width="1203" height="620" alt="Screenshot 2026-06-07 193254" src="https://github.com/user-attachments/assets/fa65e00a-bf04-4598-8a75-18e8ebd9cff0" />
 
 
@@ -110,16 +110,16 @@ The dataset was structured into meaningful analytical dimensions:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
-### 💰 Revenue Performance
+### Revenue Performance
 
 - Total revenue indicates strong overall performance  
 - Daily fluctuations suggest inconsistent demand patterns  
 
 ---
 
-### 🛍️ Product Category Distribution
+### Product Category Distribution
 
 Revenue is evenly split (~31–34%) across:
 
@@ -133,7 +133,7 @@ Revenue is evenly split (~31–34%) across:
 
 ---
 
-### 📈 Customer Trends
+### Customer Trends
 
 - Customer counts fluctuate over time  
 
@@ -143,7 +143,7 @@ Revenue is evenly split (~31–34%) across:
 
 ---
 
-### 📉 Daily Revenue Trends
+### Daily Revenue Trends
 
 - Revenue shows spikes and dips across days  
 
@@ -156,7 +156,7 @@ Revenue is evenly split (~31–34%) across:
 
 ---
 
-### 📊 Category Performance Trends
+### Category Performance Trends
 
 - Electronics shows variability  
 - Beauty and Clothing remain relatively stable  
@@ -167,7 +167,7 @@ Revenue is evenly split (~31–34%) across:
 
 ---
 
-## 🧠 Business Value
+## Business Value
 
 This dashboard enables:
 
